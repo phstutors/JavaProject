@@ -4,9 +4,29 @@ public class Livro {
 
 	private String nome;
 	private int codigo;
+	private String autor;
+	private String disponibilidade;
 	private ArrayList <Livro> listaLivros;
 	public Livro() {
 		listaLivros = new ArrayList<Livro>();
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getDisponibilidade() {
+		return disponibilidade;
+	}
+	public void setDisponibilidade(String disponibilidade) {
+		this.disponibilidade = disponibilidade;
+	}
+	public ArrayList<Livro> getListaLivros() {
+		return listaLivros;
+	}
+	public void setListaLivros(ArrayList<Livro> listaLivros) {
+		this.listaLivros = listaLivros;
 	}
 	public String getNome() {
 		return nome;
@@ -19,11 +39,5 @@ public class Livro {
 	}
 	public void setCodigo(int Codigo) {
 		this.codigo = codigo;
-	}
-	public ArrayList<Livro> getlistaLivros() {
-		return listaLivros;
-	}
-	public void setlistaLivros(ArrayList<Livro> listaLivros) {
-		this.listaLivros = listaLivros;
 	}
 }
