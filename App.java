@@ -15,7 +15,7 @@ while (contador == 1){
 	if(escolha == 1) {
 		System.out.println("--------------------");
 		System.out.println("Escolha um Codigo para o Livro (Apenas Numeros)");
-		System.out.println("--------------------");
+		System.out.println("---------------------");
 		livro.setCodigo(sc.nextInt());
 		System.out.println("--------------------");
 		System.out.println("Digite o nome do Livro");
